@@ -5,7 +5,7 @@ let interval
 
 const updateClock = () => {
     const date = new Date().getTime();
-    const dateDeadline = new Date("01 february 2026").getTime();
+    const dateDeadline = new Date("03 february 2026").getTime();
     const timeRemaining = (dateDeadline - date) / 1000;
 
     const hours = Math.floor(timeRemaining / 60 / 60);
