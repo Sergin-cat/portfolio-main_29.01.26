@@ -5,7 +5,7 @@ let interval
 
 const updateClock = () => {
     const date = new Date().getTime();
-    const dateDeadline = new Date("06 february 2026").getTime();
+    const dateDeadline = new Date("10 february 2026").getTime();
     const timeRemaining = (dateDeadline - date) / 1000;
 
     const hours = Math.floor(timeRemaining / 60 / 60);
@@ -27,3 +27,5 @@ const updateClock = () => {
 updateClock() 
 
 interval = setInterval(updateClock, 500)
+
+// 15:40
